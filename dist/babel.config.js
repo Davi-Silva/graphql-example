@@ -17,7 +17,7 @@ module.exports = {
             {
                 root: ["./src"],
                 alias: {
-                    "@constants": "./src/constants",
+                    "@constants/*": "./src/constants/*",
                 },
             },
         ],
